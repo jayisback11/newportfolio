@@ -1,0 +1,33 @@
+:root {
+  --bg-primary: rgb(17, 17, 19);
+  --bg-secondary: rgb(26, 28, 30);
+  --bg-tertiary: rgb(38, 40, 42);
+  --text-primary: rgb(255, 255, 255);
+  --text-secondary: rgb(218, 218, 218);
+  --text-muted: rgb(161, 161, 170);
+  --border-primary: rgb(63, 63, 63);
+  --border-subtle: rgba(255, 255, 255, 0.1);
+  --accent-primary: #00D4FF;
+  --accent-hover: #00B8E6;
+  --accent-pressed: #009FCC;
+  --accent-bg: rgba(0, 212, 255, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.App {
+  min-height: 100vh;
+}
